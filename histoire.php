@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Histoire de ScrumLand</title>
+    <link rel="stylesheet" href="Assets/CSS/General.css">
 </head>
 <body>
     <!-- En-tête -->
@@ -82,17 +83,7 @@
 
     <!-- Pied de page -->
     <div id="footer"></div>
-
-    <!-- Script pour importer le footer -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            fetch("footer.html")
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById("footer").innerHTML = data;
-                })
-                .catch(error => console.error("Erreur de chargement du footer :", error));
-        });
-    </script>
+    <?php include 'footer.php'; ?>
+    
 </body>
 </html>
