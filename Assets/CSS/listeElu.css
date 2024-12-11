@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --vanilla: #e4d6a7;
+    --licorice: #1c110a;
+    --hunyadiYellow: #e9b44c;
+    --shadowColor: #888888;
+}
+
+body {
+    font: 600 16px 'Josefin', sans-serif;
+    background-color: var(--vanilla);
+    color: var(--licorice);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--hunyadiYellow);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 2px -2px var(--shadowColor);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--licorice);
+    font-weight: bold;
+}
+
+.elus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.elu {
+    background-color: var(--hunyadiYellow);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px var(--shadowColor);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.elu img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--hunyadiYellow);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -4px 2px -2px var(--shadowColor);
+}
