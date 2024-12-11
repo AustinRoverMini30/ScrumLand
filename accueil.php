@@ -8,7 +8,8 @@
 </head>
 <body>
     <!-- En-tête de la page -->
-    <header>
+    <header id="header">
+        <canvas id="canvas"></canvas>
         <h1>Bienvenue à ScrumLand 🌳🏙️</h1>
         <p>La ville futuriste et écologique au bord du Lac-Plage, dans le sud de la France</p>
         <nav>
@@ -105,6 +106,18 @@
         </ul>
     </section>
 
+    <!-- Pied de page -->
+    <footer id="footer">
+        <p>&copy; 2024 Ville de ScrumLand. Tous droits réservés.</p>
+        <nav>
+            <a href="#geographie">Géographie</a> | 
+            <a href="#demographie">Démographie</a> | 
+            <a href="#politique">Gouvernance</a> | 
+            <a href="#ecologie">Écologie</a> | 
+            <a href="#technologie">Technologie</a> | 
+            <a href="#culture">Culture</a>
+        </nav>
+    </footer>
     <!-- Pied de page -->
     <?php include 'footer.php'; ?>
 </body>

@@ -8,8 +8,9 @@
 </head>
 <body>
     <!-- En-tête -->
-    <header>
-        <h1>Histoire de ScrumLand</h1>
+    <header id="header">
+        <canvas id="canvas"></canvas>
+        <h1>Histoire de ScrumLand 🌳🏙️</h1>
         <p>De ses origines modestes à son rôle d'innovateur technologique</p>
         <nav>
             <a href="index.html">Accueil</a> | 
@@ -80,9 +81,7 @@
             <li>🗣️ <em>"C’est incroyable de voir comment notre petite ville est devenue un centre d’innovation mondial."</em> – Isabelle R.</li>
         </ul>
     </section>
-
     <!-- Pied de page -->
-    <div id="footer"></div>
     <?php include 'footer.php'; ?>
     
 </body>
