@@ -1,5 +1,5 @@
 <?php
-class ModelArticle{
+class Model{
     private $db;
 
     public function __construct() {
