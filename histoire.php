@@ -28,7 +28,7 @@
         <p>
             Le lac jouait un rôle central dans la vie des habitants. Il fournissait des ressources essentielles et servait de lieu de rassemblement. En été, les habitants s’y retrouvaient pour célébrer des fêtes locales et organiser des marchés saisonniers.
         </p>
-        <img src="lac-historique.jpg" alt="Vue historique du lac de ScrumLand" width="600">
+        <img src="Assets/Images/lac-historique.jpg" alt="Vue historique du lac de ScrumLand" width="600">
     </section>
 
     <!-- Section Guerre Froide -->
@@ -49,7 +49,7 @@
             "<em>ScrumLand a été le berceau de la collaboration agile avant même que le monde ne la découvre</em>."  
             <br>– Un chercheur de l'époque.
         </blockquote>
-        <img src="laboratoire-guerre-froide.jpg" alt="Laboratoire technologique" width="600">
+        <img src="Assets/Images/laboratoire-guerre-froide.jpg" alt="Laboratoire technologique" width="600">
     </section>
 
     <!-- Section Vers le Futur -->
@@ -67,7 +67,7 @@
         <p>
             Chaque année, ScrumLand accueille des festivals dédiés à la technologie, aux arts et à l’environnement, rassemblant des visiteurs du monde entier.
         </p>
-        <img src="scrumland-futur.jpg" alt="Ville moderne et futuriste" width="600">
+        <img src="Assets/Images/scrumland-futur.jpg" alt="Ville moderne et futuriste" width="600">
     </section>
 
     <!-- Témoignages -->
