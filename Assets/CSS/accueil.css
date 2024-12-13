@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* Variables de couleurs */
+:root {
+    --vanilla: #e4d6a7;
+    --licorice: #1c110a;
+    --hunyadiYellow: #e9b44c;
+    --rofous: #9b2915;
+    --verdigris: #50a2a7;
+    --white: #fff;
+    --gray: #f8f9fa;
+}
+
+/* Style global */
+body {
+    font: 16px 'Josefin Sans', sans-serif;
+    line-height: 1.6;
+    color: var(--licorice);
+    background-color: var(--vanilla);
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+    color: var(--rofous);
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--hunyadiYellow);
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--rofous);
+}
+
+/* En-tête */
+#header {
+    background: var(--hunyadiYellow);
+    color: var(--white);
+    text-align: center;
+    padding: 1.5rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+}
+
+#header p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+#header nav a {
+    margin: 0 0.8rem;
+    color: var(--licorice);
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+#header nav a:hover {
+    color: var(--white);
+}
+
+/* Section Générale */
+section {
+    background: var(--white);
+    border: 1px solid var(--gray);
+    border-radius: 10px;
+    margin: 2rem auto;
+    padding: 1.5rem 2rem;
+    max-width: 1000px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+section h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+section ul li {
+    padding: 0.5rem 0;
+    font-size: 1rem;
+}
+
+section img {
+    display: block;
+    margin: 1.5rem auto;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Pied de page */
+#footer {
+    background: var(--licorice);
+    color: var(--white);
+    text-align: center;
+    padding: 1.2rem 0;
+    margin-top: 2rem;
+}
+
+#footer nav a {
+    color: var(--vanilla);
+    margin: 0 0.5rem;
+    font-size: 1rem;
+}
+
+#footer nav a:hover {
+    color: var(--hunyadiYellow);
+}

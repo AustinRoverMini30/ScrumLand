@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienvenue à ScrumLand</title>
     <link rel="stylesheet" href="Assets/CSS/General.css">
+    <link rel="stylesheet" href="Assets/CSS/accueil.css">
 </head>
 <body>
     <!-- En-tête de la page -->
