@@ -131,7 +131,8 @@ INSERT INTO TICKET (id_tick, nom_pers_tick, pren_pers_tick, id_can) VALUES (1, "
 INSERT INTO COMMERCE (id_com, nom_com, desc_com, mail_com, tel_com, type_com) VALUES (1, "Commerce de patate", "Vendeur numéro 1 de scrumland", "ikeapatate@gmail.com", "0658485169", "Légume");
 
 
-INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (1, "Lac", "Assets/Images/lac-plage.jpg");
+INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (1, "Le magnifique lac de scrumland", "Assets/Images/lac-plage.jpg");
 INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (2, "Histoire du lac", "Assets/Images/lac-historique.jpg");
 INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (3, "Laboratoire", "Assets/Images/laboratoire-guerre-froide.jpg");
 INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (4, "Ville", "Assets/Images/technopole.jpg");
+INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (5, "Vue des parcs solaires et écologiques", "Assets/Images/jardins-ecologiques.jpg");
