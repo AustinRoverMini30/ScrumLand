@@ -103,12 +103,14 @@ INSERT INTO ACTUALITE (id_actu, nom_actu, path_act_img, desc_actu, date_actu)
 VALUES (4,"Marché de noel", NULL, "Le marché de noel arrive la semaine prchaine, venez decouvrir les merveille des noël...", "2024-12-07");
 
 INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img) VALUES (1,"Pierre", "Aline", NULL);
+INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img) VALUES (2,"Estbard", "Jaque", NULL);
+INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img) VALUES (3,"Claude", "Jean", NULL);
 
 
 INSERT INTO BULLETIN (id_bul, nom_bul, path_fichier_bul) VALUES (1, "bulletin1", NULL);
 
 
-INSERT INTO MANIFESTATION (id_manif, nom_manif, path_manif_img, desc_manif, date_manif) VALUES (1, "Evenement tous pour la patate", NULL, "Patate", "2083-02-30");
+INSERT INTO MANIFESTATION (id_manif, nom_manif, path_manif_img, desc_manif, date_manif) VALUES (1, "Evenement tous pour la patate", "Assets/Images/lac-plage.jpg", "Patate", "2083-02-30");
 
 
 INSERT INTO SPORT (id_sport, nom_tournoi, type_sport, desc_sport, date_sport) VALUES (1, "Tournoi de golf", "Golf", "Ouais le golf", "2025-01-10");
@@ -126,4 +128,7 @@ INSERT INTO TICKET (id_tick, nom_pers_tick, pren_pers_tick, id_can) VALUES (1, "
 INSERT INTO COMMERCE (id_com, nom_com, desc_com, mail_com, tel_com, type_com) VALUES (1, "Commerce de patate", "Vendeur numéro 1 de scrumland", "ikeapatate@gmail.com", "0658485169", "Légume");
 
 
-INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (1, "Ville", NULL);
+INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (1, "Lac", "Assets/Images/lac-plage.jpg");
+INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (1, "Histoire du lac", "Assets/Images/lac-historique.jpg");
+INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (1, "Laboratoire", "Assets/Images/laboratoire-guerre-froide.jpg");
+INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (1, "Ville", "Assets/Images/technopole.jpg");
