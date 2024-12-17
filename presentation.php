@@ -203,8 +203,6 @@ require './Assets/CSS/NavBar.php';
         </li>
     </ul>
 
-    <img src="Assets/Images/ville-structure.jpg" alt="Vue de la ville moderne de ScrumLand" width="100%">
-
     <p>
         ScrumLand est ainsi une ville <strong>équilibrée et dynamique</strong>, où modernité, écologie et bien-être des
         habitants sont au cœur des priorités. Grâce à ses infrastructures innovantes et ses initiatives inclusives, elle
@@ -301,8 +299,6 @@ require './Assets/CSS/NavBar.php';
             déchets et prévoir les besoins en énergie.
         </li>
     </ul>
-
-    <img src="Assets/Images/mairie.jpg" alt="Hôtel de ville de ScrumLand" width="100%">
 
     <h3>Objectifs à long terme 🎯 :</h3>
     <p>
@@ -432,8 +428,6 @@ require './Assets/CSS/NavBar.php';
             réserves écologiques pour protéger la faune et la flore.
         </li>
     </ul>
-
-    <img src="Assets/Images/jardins-ecologiques.jpg" alt="Vue des parcs solaires et écologiques" width="100%">
 
     <p>
         ScrumLand s’impose ainsi comme une ville pionnière en matière d’<strong>innovation écologique</strong>. Grâce à
@@ -688,8 +682,6 @@ require './Assets/CSS/NavBar.php';
         <li>Événements gratuits pour permettre à chacun de profiter de la culture.</li>
         <li>Programmes de financement pour les artistes locaux afin de promouvoir leurs talents et projets.</li>
     </ul>
-
-    <img src="Assets/Images/festival.jpg" alt="Festival culturel à ScrumLand" width="100%">
 
     <p>
         ScrumLand s'impose comme une ville où la <strong>culture</strong>, les <strong>loisirs</strong> et l'<strong>innovation</strong>
