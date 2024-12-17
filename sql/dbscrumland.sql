@@ -136,3 +136,4 @@ INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (2, "Histoire du lac", "Ass
 INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (3, "Laboratoire", "Assets/Images/laboratoire-guerre-froide.jpg");
 INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (4, "Ville", "Assets/Images/technopole.jpg");
 INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (5, "Vue des parcs solaires et écologiques", "Assets/Images/jardins-ecologiques.jpg");
+INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (6, "Technopole ScrumLand", "Assets/Images/technopole.jpg");

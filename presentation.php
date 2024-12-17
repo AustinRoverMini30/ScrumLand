@@ -372,7 +372,7 @@ $model=new Model();
         <li><strong>Transport 100% autonome d’ici 2035 :</strong> Faire de ScrumLand un modèle mondial pour la mobilité durable et connectée.</li>
     </ul>
 
-    <img src="Assets/Images/technopole.jpg" alt="Technopole ScrumLand" width="100%">
+    <?php $model->getImages(6); ?>
 
     <p>
         ScrumLand est ainsi un exemple de ville où l’<strong>innovation technologique</strong> crée de nouvelles opportunités économiques, améliore le quotidien des citoyens et contribue activement à la transition écologique. Grâce à ses infrastructures modernes et ses projets ambitieux, elle attire les talents et entreprises du futur. 💼🌍🚀
