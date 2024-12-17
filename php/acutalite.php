@@ -1,6 +1,6 @@
 <?php
-    include 'model.php';
-    $model = new Model();
+    /*include 'php/model.php';
+    $model = new Model();*/
     
     $lstEvent = $model->getManifestations();
 
@@ -10,8 +10,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Assets/CSS/actualite.css">
-    <script src="../javascript/actualite.js" defer></script>
+    <link rel="stylesheet" href="/Assets/CSS/actualite.css">
+    <script src="/javascript/actualite.js" defer></script>
     <title>Actualités</title>
 </head>
 <body>
