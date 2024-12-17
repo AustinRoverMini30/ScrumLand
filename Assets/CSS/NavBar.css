@@ -21,6 +21,7 @@
     background-color: var(--hunyadiYellow);
     animation: slideDown 2s ease-out;
     color: var(--white);
+    z-index: 1000;
 }
 
 #canvas {
