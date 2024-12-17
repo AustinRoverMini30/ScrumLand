@@ -46,7 +46,7 @@ nav ul li a {
 }
 
 .elu {
-    background-color: var(--hunyadiYellow);
+    background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px var(--shadowColor);
     margin: 20px;

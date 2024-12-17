@@ -124,6 +124,8 @@ $model=new Model();
         <li>Un <strong>réseau de bibliothèques connectées</strong> offrant des livres physiques et numériques pour tous.</li>
     </ul>
 
+    <img src="Assets/Images/ville-structure.jpg" alt="Vue de la ville moderne de ScrumLand" width="100%">
+
     <p>
         ScrumLand est ainsi une ville <strong>équilibrée et dynamique</strong>, où modernité, écologie et bien-être des habitants sont au cœur des priorités. Grâce à ses infrastructures innovantes et ses initiatives inclusives, elle attire chaque année de nouveaux résidents séduits par son cadre de vie exceptionnel.
     </p>
@@ -186,6 +188,8 @@ $model=new Model();
         <li><strong>Blockchain citoyenne :</strong> Une innovation unique pour garantir la transparence des votes municipaux.</li>
         <li><strong>Intelligence artificielle :</strong> Utilisée pour optimiser les transports publics, gérer les déchets et prévoir les besoins en énergie.</li>
     </ul>
+
+    <img src="Assets/Images/mairie.jpg" alt="Hôtel de ville de ScrumLand" width="100%">
 
     <h3>Objectifs à long terme 🎯 :</h3>
     <p>
@@ -283,7 +287,8 @@ $model=new Model();
         <li><strong>Développement de la biodiversité :</strong> Augmentation des espaces verts et création de nouvelles réserves écologiques pour protéger la faune et la flore.</li>
     </ul>
 
-    <?php $model->getImages(5); ?>
+    <img src="Assets/Images/jardins-ecologiques.jpg" alt="Vue des parcs solaires et écologiques" width="100%">
+
     <p>
         ScrumLand s’impose ainsi comme une ville pionnière en matière d’<strong>innovation écologique</strong>. Grâce à des projets ambitieux et une participation citoyenne active, elle démontre que développement urbain et protection de l’environnement peuvent aller de pair. 🌍💚
     </p>
