@@ -7,10 +7,6 @@
     --shadowColor: #888888;
 }
 
-html {
-    scrollbar-color: #9b2915 transparent;
-}
-
 body {
     font: 600 16px 'Josefin', sans-serif;
     background-color: var(--vanilla);
