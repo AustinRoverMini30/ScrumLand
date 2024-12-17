@@ -283,7 +283,6 @@ $model=new Model();
         <li><strong>Développement de la biodiversité :</strong> Augmentation des espaces verts et création de nouvelles réserves écologiques pour protéger la faune et la flore.</li>
     </ul>
 
-    <?php $model->getImages(5); ?>
     <p>
         ScrumLand s’impose ainsi comme une ville pionnière en matière d’<strong>innovation écologique</strong>. Grâce à des projets ambitieux et une participation citoyenne active, elle démontre que développement urbain et protection de l’environnement peuvent aller de pair. 🌍💚
     </p>
@@ -372,7 +371,7 @@ $model=new Model();
         <li><strong>Transport 100% autonome d’ici 2035 :</strong> Faire de ScrumLand un modèle mondial pour la mobilité durable et connectée.</li>
     </ul>
 
-    <img src="Assets/Images/technopole.jpg" alt="Technopole ScrumLand" width="100%">
+    <?php $model->getImages(6); ?>
 
     <p>
         ScrumLand est ainsi un exemple de ville où l’<strong>innovation technologique</strong> crée de nouvelles opportunités économiques, améliore le quotidien des citoyens et contribue activement à la transition écologique. Grâce à ses infrastructures modernes et ses projets ambitieux, elle attire les talents et entreprises du futur. 💼🌍🚀
@@ -478,8 +477,6 @@ $model=new Model();
         <li>Événements gratuits pour permettre à chacun de profiter de la culture.</li>
         <li>Programmes de financement pour les artistes locaux afin de promouvoir leurs talents et projets.</li>
     </ul>
-
-    <img src="Assets/Images/festival.jpg" alt="Festival culturel à ScrumLand" width="100%">
 
     <p>
         ScrumLand s'impose comme une ville où la <strong>culture</strong>, les <strong>loisirs</strong> et l'<strong>innovation</strong> s’unissent pour créer une vie dynamique et inspirante. Que ce soit à travers ses événements grandioses, ses infrastructures modernes ou ses initiatives inclusives, chaque citoyen peut s’épanouir et s’enrichir culturellement. 🎭🌟
