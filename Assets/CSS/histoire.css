@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* Variables de couleurs */
+:root {
+    --vanilla: #e4d6a7;
+    --licorice: #1c110a;
+    --hunyadiYellow: #e9b44c;
+    --rofous: #9b2915;
+    --verdigris: #50a2a7;
+    --white: #ffffff;
+    --shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Global */
+body {
+    font: 400 18px 'Josefin Sans', sans-serif;
+    background-color: var(--vanilla);
+    color: var(--licorice);
+    margin: 0;
+    line-height: 1.8;
+}
+
+h1, h2, h3 {
+    color: var(--rofous);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+p {
+    text-align: justify;
+    margin: 1rem 0;
+}
+
+a {
+    color: var(--verdigris);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--hunyadiYellow);
+}
+
+/* En-tête */
+#header {
+    position: relative;
+    width: 100%;
+    padding: 2rem 1rem;
+    background-color: var(--hunyadiYellow);
+    color: var(--white);
+    text-align: center;
+    animation: slideDown 1.5s ease-out;
+}
+
+#header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+#header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+#header nav {
+    margin-top: 1rem;
+}
+
+#header nav a {
+    color: var(--licorice);
+    font-weight: bold;
+    margin: 0 1rem;
+    text-transform: uppercase;
+}
+
+#header nav a:hover {
+    color: var(--white);
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+/* Sections */
+section {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: var(--white);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+}
+
+section h2 {
+    font-size: 2rem;
+    color: var(--rofous);
+    text-transform: uppercase;
+}
+
+section h3 {
+    font-size: 1.5rem;
+    color: var(--hunyadiYellow);
+    margin-top: 2rem;
+}
+
+section img {
+    display: block;
+    margin: 2rem auto;
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+}
+
+/* Témoignages */
+#temoignages {
+    background-color: var(--vanilla);
+    padding: 3rem 1rem;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.temoignage-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.temoignage-card {
+    background: var(--white);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    max-width: 350px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.temoignage-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.temoignage-card p {
+    font-style: italic;
+    color: var(--licorice);
+}
+
+.temoignage-card .auteur {
+    font-weight: bold;
+    color: var(--rofous);
+    margin-top: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    #header nav {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .temoignage-container {
+        flex-direction: column;
+    }
+
+    section {
+        padding: 1.5rem;
+    }
+}
