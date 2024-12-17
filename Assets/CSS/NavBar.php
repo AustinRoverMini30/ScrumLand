@@ -9,11 +9,11 @@
     <canvas id="canvas"></canvas>
     <h1>ScrumLand 🌳🏙️</h1>
     <nav id="navbar">
-            <a href="presentation.php">Accueil</a>
+            <a href="accueil.php">Accueil</a>
             <a href="calendrier.php">Calendrier</a>
             <a href="histoire.php">Notre histoire</a>
             <a href="contact.php">Contact</a>
-            <a href="actualites.php">Actualités</a>
+            <a href="presentation.php">Présentation</a>
             <a href="elus.php">Nos élus</a>
     </nav>
 </div>
