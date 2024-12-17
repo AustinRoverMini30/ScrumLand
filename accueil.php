@@ -66,9 +66,8 @@ $model = new Model();
         <?php require 'numUrgences.php'; ?>
 
         <!-- Pied de page -->
-        <footer id="footer">
-            <p>&copy; 2024 Ville de ScrumLand. Tous droits réservés.</p>
-        </footer>
+
     </main>
 </body>
+<?php require 'footer.php'; ?>
 </html>
