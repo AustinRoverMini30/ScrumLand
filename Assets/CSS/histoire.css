@@ -42,51 +42,6 @@ a:hover {
     color: var(--hunyadiYellow);
 }
 
-/* En-tête */
-#header {
-    position: relative;
-    width: 100%;
-    padding: 2rem 1rem;
-    background-color: var(--hunyadiYellow);
-    color: var(--white);
-    text-align: center;
-    animation: slideDown 1.5s ease-out;
-}
-
-#header h1 {
-    margin: 0;
-    font-size: 2.5rem;
-    font-weight: 700;
-}
-
-#header p {
-    font-size: 1.2rem;
-    opacity: 0.9;
-}
-
-#header nav {
-    margin-top: 1rem;
-}
-
-#header nav a {
-    color: var(--licorice);
-    font-weight: bold;
-    margin: 0 1rem;
-    text-transform: uppercase;
-}
-
-#header nav a:hover {
-    color: var(--white);
-}
-
-@keyframes slideDown {
-    from {
-        transform: translateY(-100%);
-    }
-    to {
-        transform: translateY(0);
-    }
-}
 
 /* Sections */
 section {

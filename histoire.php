@@ -4,23 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Histoire de ScrumLand</title>
-    <link rel="stylesheet" href="Assets/CSS/General.css">
     <link rel="stylesheet" href="Assets/CSS/histoire.css">
+    <link rel="stylesheet" href="Assets/CSS/General.css">
 </head>
+<!-- En-tête de la page -->
+<?php
+require './Assets/CSS/NavBar.php';
+?>
 <body>
-    <!-- En-tête -->
-    <header id="header">
-        <canvas id="canvas"></canvas>
-        <h1>Histoire de ScrumLand 🌳🏙️</h1>
-        <p>De ses origines modestes à son rôle d'innovateur technologique</p>
-        <nav>
-            <a href="index.html">Accueil</a> | 
-            <a href="#fondation">Fondation</a> | 
-            <a href="#guerre-froide">Guerre Froide</a> | 
-            <a href="#futur">Vers le Futur</a> | 
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
 
   <!-- Section Fondation -->
 <section id="fondation">
