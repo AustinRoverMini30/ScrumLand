@@ -11,9 +11,7 @@
 <body>
     <!-- En-tête de la page -->
     <header id="header">
-        <canvas id="canvas"></canvas>
-        <h1>Mairie de Votre Ville</h1>
-        <p>Bienvenue sur le site officiel de la mairie</p>
+        <?php include 'Assets/CSS/NavBar.php'; ?>
     </header>
 
     <!-- Contenu principal -->
