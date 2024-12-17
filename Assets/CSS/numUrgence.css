@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --vanilla: #e4d6a7;
+    --licorice: #1c110a;
+    --hunyadiYellow: #e9b44c;
+    --rofous: #9b2915;
+    --verdigris: #50a2a7;
+    --highlight: #ff4d4d;
+}
+
+/* Configuration générale */
+body {
+    font: 600 16px 'Josefin Sans', sans-serif;
+    background-color: var(--vanilla);
+    color: var(--licorice);
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Conteneur principal */
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Titres */
+h1, h2, h3 {
+    color: var(--rofous);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+/* Sections */
+section {
+    margin-bottom: 2rem;
+    border: 2px solid var(--hunyadiYellow);
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Section des numéros d'urgence */
+.emergency {
+    background-color: rgba(230, 0, 0, 0.05); /* Un fond plus léger */
+    border: 2px solid var(--rofous);
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.emergency h3 {
+    color: var(--rofous);
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.emergency ul {
+    list-style: none;
+    padding: 0;
+}
+
+.emergency li {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8rem;
+    border: 1px solid var(--hunyadiYellow);
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.emergency li:hover {
+    background-color: var(--hunyadiYellow);
+    color: #fff;
+}
+
+.emergency li strong {
+    background-color: var(--rofous);
+    color: #fff;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.emergency li:hover strong {
+    background-color: var(--licorice);
+}
+
+/* Liens */
+a {
+    color: var(--verdigris);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
