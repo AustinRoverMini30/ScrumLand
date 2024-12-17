@@ -31,4 +31,10 @@ class Model{
         }
         return $lstActu;
     }
+
+    public function getElus(){
+        $stmt = $this->db->prepare("SELECT * FROM ELU");
+        $stmt->execute();
+        return $stmt->fetch(PDO::FETCH_ASSOC);
+    }
 }
