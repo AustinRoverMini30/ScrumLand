@@ -7,10 +7,6 @@
     --shadowColor: #888888;
 }
 
-html {
-    scrollbar-color: #9b2915 transparent;
-}
-
 body {
     font: 600 16px 'Josefin', sans-serif;
     background-color: var(--vanilla);
@@ -43,11 +39,16 @@ nav ul li a {
 }
 
 .contact-infos {
+    
     background-color: white;
     padding: 20px;
     border-radius: 10px;
     margin: 20px;
     box-shadow: 0 4px 8px var(--shadowColor);
+
+    margin: 3rem auto;
+    padding: 2.5rem;
+    max-width: 1200px;
 }
 
 .div-shadow {
@@ -56,6 +57,10 @@ nav ul li a {
     padding: 20px;
     box-shadow: 0 4px 8px var(--shadowColor);
     border-radius: 10px;
+
+    margin: 3rem auto;
+    padding: 2.5rem;
+    max-width: 1200px;
 }
 
 .div-form {
