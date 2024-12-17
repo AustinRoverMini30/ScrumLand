@@ -43,15 +43,15 @@ nav ul li a {
 }
 
 .contact-infos {
+    background-color: white;
     padding: 20px;
-    background-color: var(--hunyadiYellow);
     border-radius: 10px;
     margin: 20px;
     box-shadow: 0 4px 8px var(--shadowColor);
 }
 
 .div-shadow {
-    background-color: var(--hunyadiYellow);
+    background-color: white;
     margin: 20px;
     padding: 20px;
     box-shadow: 0 4px 8px var(--shadowColor);
