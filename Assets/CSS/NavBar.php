@@ -1,8 +1,8 @@
 <!DOCTYPE>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="NavBar.css">
-    <link rel="stylesheet" href="General.css">
+    <link rel="stylesheet" type="text/css" href="./Assets/CSS/NavBar.css">
+<link rel="stylesheet" href="./Assets/CSS/General.css">
 </head>
 <body>
 <div id="header">
