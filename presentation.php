@@ -2,27 +2,16 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="Assets/CSS/presentation.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienvenue à ScrumLand</title>
     <link rel="stylesheet" href="Assets/CSS/General.css">
-    <link rel="stylesheet" href="Assets/CSS/presentation.css">
 </head>
 <body>
     <!-- En-tête de la page -->
-    <header id="header">
-        <canvas id="canvas"></canvas>
-        <h1>Bienvenue à ScrumLand 🌳🏙️</h1>
-        <p>Une ville où modernité, nature et technologie s’harmonisent pour bâtir le futur.</p>
-        <nav>
-            <a href="#geographie">Situation Géographique</a> | 
-            <a href="#demographie">Démographie</a> | 
-            <a href="#politique">Gouvernance</a> | 
-            <a href="#ecologie">Écologie</a> | 
-            <a href="#technologie">Technologie</a> | 
-            <a href="#culture">Culture</a>
-        </nav>
-    </header>
-
+    <?php
+    require './Assets/CSS/NavBar.php';
+    ?>
     <!-- Section Situation Géographique -->
 <section id="geographie">
     <h2>Situation Géographique 🌊</h2>
