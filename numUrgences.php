@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mairie de Votre Ville</title>
+    <title>Numero Urgence</title>
     <!-- Liens vers les feuilles de style CSS -->
     <link rel="stylesheet" href="Assets/CSS/General.css">
     <link rel="stylesheet" href="Assets/CSS/numUrgence.css">

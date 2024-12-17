@@ -102,9 +102,13 @@ VALUES (3,"70 ans deja !", NULL, "Demain nous fêterons les 70 ans d'existence d
 INSERT INTO ACTUALITE (id_actu, nom_actu, path_act_img, desc_actu, date_actu) 
 VALUES (4,"Marché de noel", NULL, "Le marché de noel arrive la semaine prchaine, venez decouvrir les merveille des noël...", "2024-12-07");
 
-INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img) VALUES (1,"Pierre", "Aline", NULL);
-INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img) VALUES (2,"Estbard", "Jaque", NULL);
-INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img) VALUES (3,"Claude", "Jean", NULL);
+INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img) VALUES (1,"Jean", "Dupont", 5);
+INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img) VALUES (2,"Luc", "Moreau", 6);
+INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img) VALUES (3,"Pierre", "Durand", 7);
+INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img) VALUES (4,"Marie", "Martin", 8);
+INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img) VALUES (5,"Claire", "Simon", 9);
+INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img) VALUES (6,"Sophie", "Lefevre", 10);
+
 
 
 INSERT INTO BULLETIN (id_bul, nom_bul, path_fichier_bul) VALUES (1, "bulletin1", NULL);
@@ -132,3 +136,10 @@ INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (1, "Lac", "Assets/Images/l
 INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (2, "Histoire du lac", "Assets/Images/lac-historique.jpg");
 INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (3, "Laboratoire", "Assets/Images/laboratoire-guerre-froide.jpg");
 INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (4, "Ville", "Assets/Images/technopole.jpg");
+
+INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (5, "Jean", "Assets/Images/Jean.jpeg");
+INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (6, "Luc", "Assets/Images/Luc.jpeg");
+INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (7, "Pierre", "Assets/Images/Pierre.jpeg");
+INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (8, "Marie", "Assets/Images/Marie.jpeg");
+INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (9, "Claire", "Assets/Images/Claire.jpeg");
+INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (10, "Sophie", "Assets/Images/Sophie.jpeg");
