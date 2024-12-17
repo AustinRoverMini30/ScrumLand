@@ -12,5 +12,6 @@ body {
     background-color: var(--vanilla);
     color: var(--licorice);
     margin: 0;
+    margin-top: 200px;
 }
 

@@ -8,54 +8,29 @@
     <link rel="stylesheet" href="Assets/CSS/listeElu.css">
 </head>
 <body>
-<header id="header">
-    <canvas id="canvas"></canvas>
-    <h1>Liste des élus municipaux 🏛️</h1>
-    <p>Découvrez les membres de notre équipe municipale engagée pour ScrumLand.</p>
-    <nav>
-        <a href="index.php">Accueil</a> | 
-        <a href="calendrier.php">Calendrier</a> | 
-        <a href="histoire.php">Notre histoire</a> | 
-        <a href="contact.php">Contact</a> | 
-        <a href="actualites.php">Actualités</a> | 
-        <a href="elus.php">Nos élus</a>
-    </nav>
-</header>
+<?php require 'Assets/CSS/NavBar.php'; ?>
 
 <main>
-    <section class="elus">
+<section class="elus">
         <?php
-        // Exemple de données des élus
-        $elus = [
-            ["nom" => "Dupont", "prenom" => "Jean", "photo" => "images/jean_dupont.jpg"],
-            ["nom" => "Martin", "prenom" => "Marie", "photo" => "images/marie_martin.jpg"],
-            ["nom" => "Durand", "prenom" => "Pierre", "photo" => "images/pierre_durand.jpg"],
-            ["nom" => "Lefevre", "prenom" => "Sophie", "photo" => "images/sophie_lefevre.jpg"],
-            ["nom" => "Moreau", "prenom" => "Luc", "photo" => "images/luc_moreau.jpg"],
-            ["nom" => "Simon", "prenom" => "Claire", "photo" => "images/claire_simon.jpg"]
-        ];
+
+        include 'php/model.php';
+
+        $db = new Model();
+
+        // Récupération des données des élus
+        $elus = $db->getElus();
 
         // Affichage des élus
         foreach ($elus as $elu) {
             echo "<div class='elu'>";
-            echo "<img src='{$elu['photo']}' alt='Photo de {$elu['prenom']} {$elu['nom']}'>";
-            echo "<h2>{$elu['prenom']} {$elu['nom']}</h2>";
+            echo "<img src='{$elu['path_elu_img']}' alt='Photo de {$elu['pren_elu']} {$elu['nom_elu']}'>";
+            echo "<h2>{$elu['pren_elu']} {$elu['nom_elu']}</h2>";
             echo "</div>";
         }
         ?>
     </section>
 </main>
-
-<!-- Pied de page -->
-<footer id="footer">
-    <p>&copy; 2024 Ville de ScrumLand. Tous droits réservés.</p>
-    <nav>
-        <a href="index.php">Accueil</a> | 
-        <a href="histoire.php">Histoire</a> | 
-        <a href="contact.php">Contact</a>
-    </nav>
-    <p>Site multilingue | Responsive design | Mentions légales</p>
-</footer>
 
 <script>
     const canvas = document.getElementById('canvas');
@@ -134,5 +109,6 @@
     init();
     animate();
 </script>
+
 </body>
 </html>

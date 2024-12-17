@@ -35,9 +35,8 @@ class Model{
     public function getElus(){
         $stmt = $this->db->prepare("SELECT * FROM ELU");
         $stmt->execute();
-        return $stmt->fetch(PDO::FETCH_ASSOC);
+        return $stmt;   
     }
-
 
     //fonction qui etourne une liste de toute les images de la ville
     public function getImages($id){
