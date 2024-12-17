@@ -48,4 +48,14 @@ class Model{
         echo '<img src= ' . htmlspecialchars($row['path_img']) .  ' alt=" ' . htmlspecialchars($row['nom_img']) . '" width="100%">';
     }
 
+    public function getAllImages(){
+        $stmt = $this->db->prepare("SELECT nom_img,path_img FROM IMAGE");
+        $stmt->execute();
+        $lstImg=array();
+        while ($row=$stmt->fetch(PDO::FETCH_ASSOC)){
+            echo '<label>' . htmlspecialchars($row['nom_img']) . '</label> </br></br>';
+            echo '<img src= ' . htmlspecialchars($row['path_img']) .  ' alt=" ' . htmlspecialchars($row['nom_img']) . '" width="100%"> </br></br>';
+        }
+    }
+
 }
