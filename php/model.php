@@ -21,4 +21,14 @@ class Model{
         }
         return $lstActu;
     }
+
+    public function getManifestations(){
+        $stmt = $this->db->prepare("SELECT * FROM manifestation");
+        $stmt->execute();
+        $lstActu=array();
+        while ($row=$stmt->fetch(PDO::FETCH_ASSOC)){
+            array_push($lstActu,$row);
+        }
+        return $lstActu;
+    }
 }
