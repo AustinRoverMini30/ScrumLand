@@ -19,3 +19,13 @@ body {
     margin-top: 200px;
 }
 
+/* Footer */
+#footer {
+    background: var(--licorice);
+    color: var(--white);
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin-top: 3rem;
+    box-shadow: 0 -4px 6px var(--shadow);
+}
+
