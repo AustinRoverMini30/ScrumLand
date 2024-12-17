@@ -133,7 +133,8 @@ INSERT INTO COMMERCE (id_com, nom_com, desc_com, mail_com, tel_com, type_com) VA
 
 INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (1, "Le magnifique lac de scrumland", "Assets/Images/lac-plage.jpg");
 INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (2, "Histoire du lac", "Assets/Images/lac-historique.jpg");
-INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (3, "Laboratoire", "Assets/Images/laboratoire-guerre-froide.jpg");
+INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (3, "Laboratoire de recherche", "Assets/Images/laboratoire-guerre-froide.jpg");
 INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (4, "Ville", "Assets/Images/technopole.jpg");
 INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (5, "Vue des parcs solaires et écologiques", "Assets/Images/jardins-ecologiques.jpg");
 INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (6, "Technopole ScrumLand", "Assets/Images/technopole.jpg");
+INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (7, "La friterie connu de scrumaland", "Assets/Images/Frite_scrumland.png");
