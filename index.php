@@ -1,5 +1,5 @@
 <?php
 
-header('Location: presentation.php');
+header('Location: accueil.php');
 
 ?>
