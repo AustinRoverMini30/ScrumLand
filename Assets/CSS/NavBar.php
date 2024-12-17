@@ -17,6 +17,6 @@
             <a href="elus.php">Nos élus</a>
     </nav>
 </div>
-<script src="./../JS/header.js"></script>
+<script src="./Assets/JS/header.js"></script>
 </body>
 </html>
