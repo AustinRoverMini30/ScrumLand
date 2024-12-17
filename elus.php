@@ -8,19 +8,7 @@
     <link rel="stylesheet" href="Assets/CSS/listeElu.css">
 </head>
 <body>
-<header id="header">
-    <canvas id="canvas"></canvas>
-    <h1>Liste des élus municipaux 🏛️</h1>
-    <p>Découvrez les membres de notre équipe municipale engagée pour ScrumLand.</p>
-    <nav>
-        <a href="index.php">Accueil</a> | 
-        <a href="calendrier.php">Calendrier</a> | 
-        <a href="histoire.php">Notre histoire</a> | 
-        <a href="contact.php">Contact</a> | 
-        <a href="actualites.php">Actualités</a> | 
-        <a href="elus.php">Nos élus</a>
-    </nav>
-</header>
+<?php require 'Assets/CSS/NavBar.php'; ?>
 
 <main>
 <section class="elus">
@@ -43,17 +31,6 @@
         ?>
     </section>
 </main>
-
-<!-- Pied de page -->
-<footer id="footer">
-    <p>&copy; 2024 Ville de ScrumLand. Tous droits réservés.</p>
-    <nav>
-        <a href="index.php">Accueil</a> | 
-        <a href="histoire.php">Histoire</a> | 
-        <a href="contact.php">Contact</a>
-    </nav>
-    <p>Site multilingue | Responsive design | Mentions légales</p>
-</footer>
 
 <script>
     const canvas = document.getElementById('canvas');

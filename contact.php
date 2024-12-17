@@ -9,19 +9,7 @@
 </head>
 <body>
     <!-- En-tête de la page -->
-    <header id="header">
-        <canvas id="canvas"></canvas>
-        <h1>Contactez-nous 📞</h1>
-        <p>Nous sommes là pour répondre à toutes vos questions et demandes.</p>
-        <nav>
-            <a href="index.php">Accueil</a> | 
-            <a href="calendrier.php">Calendrier</a> | 
-            <a href="histoire.php">Notre histoire</a> | 
-            <a href="contact.php">Contact</a> | 
-            <a href="actualites.php">Actualités</a> | 
-            <a href="elus.php">Nos élus</a>
-        </nav>
-    </header>
+    <?php include 'Assets/CSS/NavBar.php'; ?>
 
     <!-- Section Informations de Contact -->
     <section class="contact-infos">
@@ -61,17 +49,6 @@
             </div>
         </form>
     </section>
-
-    <!-- Pied de page -->
-    <footer id="footer">
-        <p>&copy; 2024 Ville de ScrumLand. Tous droits réservés.</p>
-        <nav>
-            <a href="index.php">Accueil</a> | 
-            <a href="histoire.php">Histoire</a> | 
-            <a href="contact.php">Contact</a>
-        </nav>
-        <p>Site multilingue | Responsive design | Mentions légales</p>
-    </footer>
 
     <script>
         const canvas = document.getElementById('canvas');
