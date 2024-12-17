@@ -37,4 +37,16 @@ class Model{
         $stmt->execute();
         return $stmt->fetch(PDO::FETCH_ASSOC);
     }
+
+
+    //fonction qui etourne une liste de toute les images de la ville
+    public function getImages($id){
+        $stmt = $this->db->prepare("SELECT nom_img,path_img FROM IMAGE WHERE id_img=:id");
+        $stmt->bindParam(':id', $id);
+        $stmt->execute();
+        $lstImg=array();
+        $row=$stmt->fetch(PDO::FETCH_ASSOC);
+        echo '<img src= ' . htmlspecialchars($row['path_img']) .  ' alt=" ' . htmlspecialchars($row['nom_img']) . '" width="100%">';
+    }
+
 }
