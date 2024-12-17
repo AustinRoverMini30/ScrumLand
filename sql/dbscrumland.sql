@@ -132,3 +132,4 @@ INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (1, "Lac", "Assets/Images/l
 INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (2, "Histoire du lac", "Assets/Images/lac-historique.jpg");
 INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (3, "Laboratoire", "Assets/Images/laboratoire-guerre-froide.jpg");
 INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (4, "Ville", "Assets/Images/technopole.jpg");
+INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (4, "Ville", "Assets/Images/jardins-ecologiques.jpg");

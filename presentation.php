@@ -1,3 +1,8 @@
+<?php
+include 'php/model.php';
+$model=new Model();
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -62,7 +67,7 @@
         <li><strong>Produits locaux :</strong> L’agriculture biologique autour de ScrumLand permet de proposer des produits frais tels que miel, fromages, et vins locaux, prisés par les habitants et les touristes.</li>
     </ul>
 
-    <img src="Assets/Images/lac-plage.jpg" alt="Le Lac-Plage animé de ScrumLand" width="100%">
+    <?php $model->getImages(1); ?>
 
     <p>
         Grâce à son emplacement stratégique entre mer et montagne, ScrumLand est un véritable joyau géographique où chaque saison apporte son lot d’opportunités pour les résidents comme pour les visiteurs. Que vous soyez amateur de détente, de sport ou de découverte, ScrumLand vous promet des moments inoubliables dans un cadre exceptionnel.
