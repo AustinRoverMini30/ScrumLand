@@ -58,6 +58,12 @@ class Model{
         }
     }
 
+    public function getActualite(){
+        $stmt = $this->db->prepare("SELECT * FROM ACTUALITE");
+        $stmt->execute();
+        return $stmt;
+    }
+
     public function getrawImage($id){
         $stmt = $this->db->prepare("SELECT nom_img,path_img FROM IMAGE WHERE id_img=:id");
         $stmt->bindParam(':id', $id);
