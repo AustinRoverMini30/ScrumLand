@@ -1,7 +1,4 @@
-<?php
-    /*include 'php/model.php';
-    $model = new Model();*/
-    
+<?php    
     $lstEvent = $model->getManifestations();
 
 ?>
@@ -10,13 +7,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Assets/CSS/actualite.css">
-    <script src="Assets/JS/actualite.js" defer></script>
-    <title>Actualités</title>
+    <link rel="stylesheet" href="Assets/CSS/manifestation.css">
+    <script src="Assets/JS/manifestation.js" defer></script>
 </head>
 <body>
 <div class="carousel-container">
-    <div id="listeActualite">
+    <div id="listeManifestation">
         <?php foreach ($lstEvent as $event){?>
             
             <div class="manifestation">

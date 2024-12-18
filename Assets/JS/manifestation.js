@@ -11,7 +11,7 @@ const totalPages = Math.ceil(totalEvents-2);
 
 function updateCarousel() {
     const offset = -currentIndex * (100 / itemsPerPage);
-    const carousel = document.getElementById('listeActualite');
+    const carousel = document.getElementById('listeManifestation');
     carousel.style.transform = `translateX(${offset}%)`;
 
     document.getElementById('prevBtn').disabled = currentIndex === 0;

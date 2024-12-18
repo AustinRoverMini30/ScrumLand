@@ -108,7 +108,7 @@ INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img, resp_elu) VALUES (2,"L
 INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img, resp_elu) VALUES (3,"Pierre", "Durand", "Assets/Images/Pierre.jpeg", "Adjoint à l'éducation");
 INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img, resp_elu) VALUES (4,"Marie", "Martin", "Assets/Images/Marie.jpeg", "Secrétaire");
 INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img, resp_elu) VALUES (5,"Claire", "Simon", "Assets/Images/Claire.jpeg", "Adjoint à l'environnement");
-INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img, resp_elu) VALUES (6,"Sophie", "Lefevre", "Assets/Images/Sophie.jpeg", "Adjoints aux sports");
+INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img, resp_elu) VALUES (6,"Sophie", "Lefevre", "Assets/Images/Sophie.jpeg", "Adjoint aux sports");
 
 
 INSERT INTO BULLETIN (id_bul, nom_bul, path_fichier_bul) VALUES (1, "bulletin1", NULL);
