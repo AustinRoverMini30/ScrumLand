@@ -58,4 +58,10 @@ class Model{
         }
     }
 
+    public function getActualite(){
+        $stmt = $this->db->prepare("SELECT * FROM ACTUALITE");
+        $stmt->execute();
+        return $stmt;
+    }
+
 }
