@@ -1,5 +1,5 @@
 <?php    
-    $lstEvent = $model->getManifestations();
+    $lstEvent = $model->getActualite();
 
 ?>
 <!DOCTYPE html>
@@ -16,10 +16,10 @@
         <?php foreach ($lstEvent as $event){?>
             
             <div class="manifestation">
-                <h1><?php echo $event['nom_manif']; ?></h1>
-                <p><?php echo $event['desc_manif']; ?></p>
-                <img src="<?php echo $event['path_manif_img']?>" alt="img">
-                <p><?php echo $event['date_manif']; ?></p>
+                <h1><?php echo $event['nom_actu']; ?></h1>
+                <p><?php echo $event['desc_actu']; ?></p>
+                <img src="<?php echo $event['path_act_img']?>" alt="img">
+                <p><?php echo $event['date_actu']; ?></p>
             </div>
         <?php } ?>
     </div>
