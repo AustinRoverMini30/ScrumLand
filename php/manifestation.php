@@ -18,6 +18,7 @@
             <div class="manifestation">
                 <h1><?php echo $event['nom_manif']; ?></h1>
                 <p><?php echo $event['desc_manif']; ?></p>
+                <img src="<?php echo $event['path_manif_img']?>" alt="img">
                 <p><?php echo $event['date_manif']; ?></p>
             </div>
         <?php } ?>

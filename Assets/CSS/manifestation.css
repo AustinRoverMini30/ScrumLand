@@ -48,7 +48,6 @@ button {
     cursor: pointer;
 }
 
-img {
-    width: 100%;
-    height: auto;
+#listeManifestation img{
+    width: 90%;
 }
