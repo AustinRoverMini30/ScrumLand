@@ -58,4 +58,33 @@ class Model{
         }
     }
 
+    public function getCommerce(){
+        $stmt = $this->db->prepare("SELECT * FROM COMMERCE");
+        $stmt->execute();
+        while ($row=$stmt->fetch(PDO::FETCH_ASSOC)){
+            echo '<div>';
+            echo '<h3>' . htmlspecialchars($row['nom_com']) . '</h3>';
+            echo '<p>' . htmlspecialchars($row['desc_com']) . '</p>';
+            echo '<p>' . htmlspecialchars($row['mail_com']) . '</p>';
+            echo '<p>' . htmlspecialchars($row['tel_com']) . '</p>';
+            echo '<p>' . htmlspecialchars($row['type_com']) . '</p>';
+            echo '</div>';
+        }
+    }
+
+    public function getActualite(){
+        $stmt = $this->db->prepare("SELECT * FROM ACTUALITE");
+        $stmt->execute();
+        return $stmt;
+    }
+
+    public function getrawImage($id){
+        $stmt = $this->db->prepare("SELECT nom_img,path_img FROM IMAGE WHERE id_img=:id");
+        $stmt->bindParam(':id', $id);
+        $stmt->execute();
+        $lstImg=array();
+        $row=$stmt->fetch(PDO::FETCH_ASSOC);
+        echo htmlspecialchars($row['path_img']);
+    }
+
 }
