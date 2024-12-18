@@ -62,12 +62,14 @@ class Model{
         $stmt = $this->db->prepare("SELECT * FROM COMMERCE");
         $stmt->execute();
         while ($row=$stmt->fetch(PDO::FETCH_ASSOC)){
-            echo '<div>';
+            echo '<div id="urgence" class="emergency"> ';
             echo '<h3>' . htmlspecialchars($row['nom_com']) . '</h3>';
-            echo '<p> Qui somme nous : ' . htmlspecialchars($row['desc_com']) . '</p>';
-            echo '<p> Adresse mail : ' . htmlspecialchars($row['mail_com']) . '</p>';
-            echo '<p> Numéro de téléphone : ' . htmlspecialchars($row['tel_com']) . '</p>';
-            echo '<p> Produit phare : ' . htmlspecialchars($row['type_com']) . '</p>';
+            echo '<ul>';
+            echo '<li> Qui somme nous : ' . htmlspecialchars($row['desc_com']) . '</li>';
+            echo '<li> Adresse mail : ' . htmlspecialchars($row['mail_com']) . '</li>';
+            echo '<li> Numéro de téléphone : ' . htmlspecialchars($row['tel_com']) . '</li>';
+            echo '<li> Produit phare : ' . htmlspecialchars($row['type_com']) . '</li>';
+            echo '</ul>';
             echo '</div>';
         }
     }
