@@ -95,13 +95,13 @@ CREATE TABLE IMAGE (
 
 
 INSERT INTO ACTUALITE (id_actu, nom_actu, path_act_img, desc_actu, date_actu) 
-VALUES (1,"Decouvrez la creperie de Scrumland", NULL, "Venez deguster les spécialité sucrée de notre ville dans l'une de nos meilleur creperie...", "2024-12-09");
+VALUES (1,"Decouvrez la creperie de Scrumland", "Assets/Images/creperie.png", "Venez deguster les spécialité sucrée de notre ville dans l'une de nos meilleur creperie...", "2024-12-09");
 INSERT INTO ACTUALITE (id_actu, nom_actu, path_act_img, desc_actu, date_actu) 
-VALUES (2,"Tournoi de golf !", NULL, "Dans 10 jour aura lieu notre fameux tournoi de golf annuelle, venez nombreux...", "2024-12-11");
+VALUES (2,"Tournoi de golf !", "Assets/Images/Tournoi_de_golf.png", "Dans 10 jour aura lieu notre fameux tournoi de golf annuelle, venez nombreux...", "2024-12-11");
 INSERT INTO ACTUALITE (id_actu, nom_actu, path_act_img, desc_actu, date_actu) 
-VALUES (3,"70 ans deja !", NULL, "Demain nous fêterons les 70 ans d'existence de notre belle ville qu'est scrumland", "2024-10-19");
+VALUES (3,"70 ans deja !", "Assets/Images/70ans_deja_omj.png", "Demain nous fêterons les 70 ans d'existence de notre belle ville qu'est scrumland", "2024-10-19");
 INSERT INTO ACTUALITE (id_actu, nom_actu, path_act_img, desc_actu, date_actu) 
-VALUES (4,"Marché de noel", NULL, "Le marché de noel arrive la semaine prchaine, venez decouvrir les merveille des noël...", "2024-12-07");
+VALUES (4,"Marché de noel", "Assets/Images/Marché_de_noel.png", "Le marché de noel arrive la semaine prchaine, venez decouvrir les merveille des noël...", "2024-12-07");
 
 INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img, resp_elu) VALUES (1,"Jean", "Dupont", "Assets/Images/Jean.jpeg", "Maire");
 INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img, resp_elu) VALUES (2,"Luc", "Moreau", "Assets/Images/Luc.jpeg", "Ajoint à l'urbanisme");
