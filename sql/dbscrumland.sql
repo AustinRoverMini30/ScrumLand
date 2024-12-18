@@ -129,7 +129,8 @@ INSERT INTO CANTINE (id_can, path_menu_can, date_can) VALUES (1, NULL, "2024-11-
 INSERT INTO TICKET (id_tick, nom_pers_tick, pren_pers_tick, id_can) VALUES (1, "Michelle", "Johnshon", 1);
 
 
-INSERT INTO COMMERCE (id_com, nom_com, desc_com, mail_com, tel_com, type_com) VALUES (1, "Commerce de patate", "Vendeur numéro 1 de scrumland", "ikeapatate@gmail.com", "0658485169", "Légume");
+INSERT INTO COMMERCE (id_com, nom_com, desc_com, mail_com, tel_com, type_com) VALUES (1, "Commerce de patate", "Vendeur numéro 1 de scrumland", "ikeapatate@gmail.com", "0458485169", "Légume");
+INSERT INTO COMMERCE (id_com, nom_com, desc_com, mail_com, tel_com, type_com) VALUES (2, "Commerce de vétement", "Le style numéro 1 de scrumland", "stylescrum@gmail.com", "0454269472", "Vétement");
 
 
 INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (1, "Le magnifique lac de scrumland", "Assets/Images/lac-plage.jpg");
