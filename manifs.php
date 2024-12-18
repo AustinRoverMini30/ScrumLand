@@ -19,17 +19,17 @@
     $db = new Model();
 
     // Récupération des actualités
-    $actualites = $db->getActualite();
+    $actualites = $db->getManifestations();
 
     // Affichage des actualités
     foreach ($actualites as $actu) {
         echo "<div class='actu'>";
-        if ($actu['path_act_img']) {
-            echo "<img src='{$actu['path_act_img']}' alt='Image de {$actu['nom_actu']}'>";
+        if ($actu['path_manif_img']) {
+            echo "<img src='{$actu['path_manif_img']}' alt='Image de {$actu['nom_manif']}'>";
         }
-        echo "<h2>{$actu['nom_actu']}</h2>";
-        echo "<p>{$actu['desc_actu']}</p>";
-        echo "<p>Date: {$actu['date_actu']}</p>";
+        echo "<h2>{$actu['nom_manif']}</h2>";
+        echo "<p>{$actu['desc_manif']}</p>";
+        echo "<p>Date: {$actu['date_manif']}</p>";
         echo "</div>";
     }
     ?>
