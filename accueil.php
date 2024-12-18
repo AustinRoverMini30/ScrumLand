@@ -13,8 +13,8 @@ $model = new Model();
     <link rel="stylesheet" href="Assets/CSS/accueil.css">
     <link rel="stylesheet" href="Assets/CSS/General.css">
     <link rel="stylesheet" href="Assets/CSS/numUrgence.css">
-    <link rel="stylesheet" href="Assets/CSS/acutalite.css">
-    <script src="Assets/JS/actualite.js" defer></script>
+    <link rel="stylesheet" href="Assets/CSS/manifestation.css">
+    <script src="Assets/JS/manifestation.js" defer></script>
 </head>
 <body>
     <!-- Barre de Navigation -->
@@ -33,7 +33,7 @@ $model = new Model();
                 <a href="histoire.php" class="btn">Explorer l'Histoire</a>
             </div>
         </section>
-        <?php require 'php/acutalite.php'; ?>
+        <?php require 'php/manifestation.php'; ?>
         <!-- Section Aperçu des Sections -->
         <section id="sections">
             <h2>🔍 Découvrez ScrumLand</h2>
