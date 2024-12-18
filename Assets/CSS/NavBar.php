@@ -10,7 +10,6 @@
     <h1>ScrumLand 🌳🏙️</h1>
     <nav id="navbar">
             <a href="accueil.php">Accueil</a>
-            <a href="calendrier.php">Calendrier</a>
             <a href="histoire.php">Notre histoire</a>
             <a href="contact.php">Contact</a>
             <a href="notreVille.php">Galerie</a>

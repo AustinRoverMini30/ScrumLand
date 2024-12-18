@@ -139,3 +139,4 @@ INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (4, "Ville", "Assets/Images
 INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (5, "Vue des parcs solaires et écologiques", "Assets/Images/jardins-ecologiques.jpg");
 INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (6, "Technopole ScrumLand", "Assets/Images/technopole.jpg");
 INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (7, "La friterie connu de scrumaland", "Assets/Images/Frite_scrumland.png");
+INSERT INTO IMAGE (id_img, nom_img, path_img) VALUES (8, "La magnifique ville qu'est scrumland", "Assets/Images/ScrumLand.png");
