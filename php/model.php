@@ -67,7 +67,7 @@ class Model{
             echo '<p>' . htmlspecialchars($row['desc_com']) . '</p>';
             echo '<p>' . htmlspecialchars($row['mail_com']) . '</p>';
             echo '<p>' . htmlspecialchars($row['tel_com']) . '</p>';
-            echo '<p>' . htmlspecialchars($row['type_com']) . '</p>';
+            echo '<p> Numéro de téléphone : ' . htmlspecialchars($row['type_com']) . '</p>';
             echo '</div>';
         }
     }
