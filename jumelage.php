@@ -19,14 +19,6 @@ $jumelage = [
 ];
 ?>
 
-
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jumelage de ScrumLand</title>
-</head>
 <body>
     <h1>Jumelage de ScrumLand</h1>
     <p>Découvrez les villes jumelées avec ScrumLand :</p>
@@ -42,4 +34,4 @@ $jumelage = [
 
     <p>Le jumelage favorise l'échange culturel et économique entre les villes partenaires, renforçant ainsi les liens internationaux.</p>
 </body>
-</html>
+
