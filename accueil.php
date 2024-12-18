@@ -13,8 +13,8 @@ $model = new Model();
     <link rel="stylesheet" href="Assets/CSS/accueil.css">
     <link rel="stylesheet" href="Assets/CSS/General.css">
     <link rel="stylesheet" href="Assets/CSS/numUrgence.css">
-    <link rel="stylesheet" href="Assets/CSS/manifestation.css">
-    <script src="Assets/JS/manifestation.js" defer></script>
+    <link rel="stylesheet" href="Assets/CSS/actualite.css">
+    <script src="Assets/JS/actualite.js" defer></script>
 </head>
 <body>
     <!-- Barre de Navigation -->
