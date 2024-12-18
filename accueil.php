@@ -33,7 +33,7 @@ $model = new Model();
                 <a href="histoire.php" class="btn">Explorer l'Histoire</a>
             </div>
         </section>
-        <?php require 'php/manifestation.php'; ?>
+        <?php require 'php/actualite.php'; ?>
         <!-- Section Aperçu des Sections -->
         <section id="sections">
             <h2>🔍 Découvrez ScrumLand</h2>

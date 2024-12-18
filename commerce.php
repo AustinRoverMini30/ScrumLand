@@ -23,4 +23,4 @@ $model = new Model();
         <section id="intro">
             <h2> Nos commerces :</h2>
         </section>
-        <?php $model->getAllImages() ?>
+        <?php $model->getCommerce() ?>
