@@ -9,7 +9,7 @@
 }
 
 /* Conteneur global pour le carrousel */
-#listeManifestation {
+#listeActualite {
     display: flex; /* Alignement horizontal des enfants */
 
     transition: transform 0.5s ease-in-out; /* Animation fluide */
@@ -22,7 +22,7 @@
 }
 
 /* Chaque élément (une "manifestation") */
-.manifestation {
+.actualite {
     flex: 0 0 calc(97.5% / 3); /* Chaque élément prend 1/3 de la largeur */
     box-sizing: border-box;
     padding: 10px;
@@ -48,6 +48,6 @@ button {
     cursor: pointer;
 }
 
-#listeManifestation img{
+#listeActualite img{
     width: 90%;
 }
