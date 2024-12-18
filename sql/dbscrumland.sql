@@ -23,7 +23,8 @@ CREATE TABLE ELU(
 	id_elu INT PRIMARY KEY,
     nom_elu VARCHAR(500),
     pren_elu VARCHAR(500),
-    path_elu_img VARCHAR(500)
+    path_elu_img VARCHAR(500),
+    resp_elu VARCHAR(500)
 );
 
 CREATE TABLE BULLETIN(
@@ -102,12 +103,12 @@ VALUES (3,"70 ans deja !", NULL, "Demain nous fêterons les 70 ans d'existence d
 INSERT INTO ACTUALITE (id_actu, nom_actu, path_act_img, desc_actu, date_actu) 
 VALUES (4,"Marché de noel", NULL, "Le marché de noel arrive la semaine prchaine, venez decouvrir les merveille des noël...", "2024-12-07");
 
-INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img) VALUES (1,"Jean", "Dupont", "Assets/Images/Jean.jpeg");
-INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img) VALUES (2,"Luc", "Moreau", "Assets/Images/Luc.jpeg");
-INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img) VALUES (3,"Pierre", "Durand", "Assets/Images/Pierre.jpeg");
-INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img) VALUES (4,"Marie", "Martin", "Assets/Images/Marie.jpeg");
-INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img) VALUES (5,"Claire", "Simon", "Assets/Images/Claire.jpeg");
-INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img) VALUES (6,"Sophie", "Lefevre", "Assets/Images/Sophie.jpeg");
+INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img, resp_elu) VALUES (1,"Jean", "Dupont", "Assets/Images/Jean.jpeg", "Maire");
+INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img, resp_elu) VALUES (2,"Luc", "Moreau", "Assets/Images/Luc.jpeg", "Ajoint à l'urbanisme");
+INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img, resp_elu) VALUES (3,"Pierre", "Durand", "Assets/Images/Pierre.jpeg", "Adjoint à l'éducation");
+INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img, resp_elu) VALUES (4,"Marie", "Martin", "Assets/Images/Marie.jpeg", "Secrétaire");
+INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img, resp_elu) VALUES (5,"Claire", "Simon", "Assets/Images/Claire.jpeg", "Adjoint à l'environnement");
+INSERT INTO ELU (id_elu ,nom_elu, pren_elu, path_elu_img, resp_elu) VALUES (6,"Sophie", "Lefevre", "Assets/Images/Sophie.jpeg", "Adjoints aux sports");
 
 
 INSERT INTO BULLETIN (id_bul, nom_bul, path_fichier_bul) VALUES (1, "bulletin1", NULL);
