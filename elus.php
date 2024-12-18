@@ -26,6 +26,7 @@
             echo "<div class='elu'>";
             echo "<img src='{$elu['path_elu_img']}' alt='Photo de {$elu['pren_elu']} {$elu['nom_elu']}'>";
             echo "<h2>{$elu['pren_elu']} {$elu['nom_elu']}</h2>";
+            echo "<p>{$elu['resp_elu']}</p>";
             echo "</div>";
         }
         ?>
