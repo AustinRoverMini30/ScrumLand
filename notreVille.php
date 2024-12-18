@@ -21,14 +21,7 @@ $model = new Model();
     <main>
         <!-- Description Courte -->
         <section id="intro">
-            <h2>🌍 Une Ville Entre Mer et Montagne</h2>
-            <p>
-                Située dans le sud ensoleillé de la France, ScrumLand est une ville dynamique nichée entre les montagnes des Alpes et les rives de la Méditerranée. Son climat idéal, ses infrastructures modernes et son engagement écologique en font un lieu de vie unique.
-            </p>
-            <div class="btn-container">
-                <a href="presentation.php" class="btn">Découvrir la Présentation</a>
-                <a href="histoire.php" class="btn">Explorer l'Histoire</a>
-            </div>
+            <h2> Bienvenue à ScrumLand</h2>
         </section>
         <?php $model->getAllImages() ?>
 </body>

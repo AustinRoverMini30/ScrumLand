@@ -13,7 +13,7 @@
             <a href="calendrier.php">Calendrier</a>
             <a href="histoire.php">Notre histoire</a>
             <a href="contact.php">Contact</a>
-            <a href="presentation.php">Présentation</a>
+            <a href="notreVille.php">Galerie</a>
             <a href="elus.php">Nos élus</a>
     </nav>
 </div>
