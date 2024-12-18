@@ -8,7 +8,7 @@
                 <li>🚓 Police / Gendarmerie : <strong>17</strong></li>
                 <li>🚒 Pompiers : <strong>18</strong></li>
                 <li>🌍 Numéro d'urgence européen : <strong>112</strong></li>
-                <li>🏢 Urgences municipales : <strong>01 23 45 67 89</strong></li>
+                <li>🏢 Urgences municipales : <strong>04 23 45 67 89</strong></li>
             </ul>
         </section>
     </main>
