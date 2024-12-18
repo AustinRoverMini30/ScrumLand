@@ -64,10 +64,10 @@ class Model{
         while ($row=$stmt->fetch(PDO::FETCH_ASSOC)){
             echo '<div>';
             echo '<h3>' . htmlspecialchars($row['nom_com']) . '</h3>';
-            echo '<p>' . htmlspecialchars($row['desc_com']) . '</p>';
-            echo '<p>' . htmlspecialchars($row['mail_com']) . '</p>';
-            echo '<p>' . htmlspecialchars($row['tel_com']) . '</p>';
-            echo '<p> Numéro de téléphone : ' . htmlspecialchars($row['type_com']) . '</p>';
+            echo '<p> Qui somme nous : ' . htmlspecialchars($row['desc_com']) . '</p>';
+            echo '<p> Adresse mail : ' . htmlspecialchars($row['mail_com']) . '</p>';
+            echo '<p> Numéro de téléphone : ' . htmlspecialchars($row['tel_com']) . '</p>';
+            echo '<p> Produit phare : ' . htmlspecialchars($row['type_com']) . '</p>';
             echo '</div>';
         }
     }
