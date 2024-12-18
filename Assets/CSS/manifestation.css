@@ -47,3 +47,7 @@ button {
     font-size: 1rem;
     cursor: pointer;
 }
+
+#listeManifestation img{
+    width: 90%;
+}
